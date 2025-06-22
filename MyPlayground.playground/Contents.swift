@@ -1,4 +1,5 @@
-// this is a comment
+var numbers = [45, 73, 195, 53]
 
-print("The Result of 5 + 3 = \(5 + 3)")
+var computedNumbers = [numbers[0]*numbers[1], numbers[1]*numbers[2], numbers[2]*numbers[3]]
 
+print(computedNumbers)
