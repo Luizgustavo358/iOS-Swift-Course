@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "ResultsViewController.viewDidLoad():ResultsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "settingsLabel.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CalculatorViewController.prepare(for:sender:):CalculatorViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "CalculatorBrain.getNumberOfPeople():CalculatorBrain.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
