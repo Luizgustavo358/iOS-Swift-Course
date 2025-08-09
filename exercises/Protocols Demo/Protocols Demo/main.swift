@@ -5,6 +5,12 @@ protocol CanFly {
     func fly()
 }
 
+extension CanFly {
+    func fly() {
+        print("The object takes off into the air.")
+    }
+}
+
 /**
  * Creating the Bird class.
  */
@@ -57,9 +63,6 @@ struct FlyingMuseum {
  * @implements -> CanFly protocol
  */
 struct Airplane: CanFly {
-    func fly() {
-        print("The airplane uses its engine to lift off into the air")
-    }
 }
 
 let myEagle = Eagle()
@@ -71,3 +74,5 @@ myPlane.fly()
 
 let museum = FlyingMuseum()
 museum.flyingDemo(flyingObject: myEagle)
+
+myPlane.fly()
