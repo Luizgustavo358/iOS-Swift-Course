@@ -6,12 +6,17 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EBA953372E5D48DD002304CF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = EBA953362E5D48DD002304CF /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		EBA952F82E5D39C3002304CF /* Flash-Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flash-Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBA953362E5D48DD002304CF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		EBA9530A2E5D39C4002304CF /* Exceptions for "Flash-Chat" folder in "Flash-Chat" target */ = {
+		EBA953322E5D4880002304CF /* Exceptions for "Flash-Chat" folder in "Flash-Chat" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -21,10 +26,10 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		EBA952FA2E5D39C3002304CF /* Flash-Chat */ = {
+		EBA9532B2E5D4880002304CF /* Flash-Chat */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				EBA9530A2E5D39C4002304CF /* Exceptions for "Flash-Chat" folder in "Flash-Chat" target */,
+				EBA953322E5D4880002304CF /* Exceptions for "Flash-Chat" folder in "Flash-Chat" target */,
 			);
 			path = "Flash-Chat";
 			sourceTree = "<group>";
@@ -45,7 +50,8 @@
 		EBA952EF2E5D39C3002304CF = {
 			isa = PBXGroup;
 			children = (
-				EBA952FA2E5D39C3002304CF /* Flash-Chat */,
+				EBA953362E5D48DD002304CF /* README.md */,
+				EBA9532B2E5D4880002304CF /* Flash-Chat */,
 				EBA952F92E5D39C3002304CF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,7 +80,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				EBA952FA2E5D39C3002304CF /* Flash-Chat */,
+				EBA9532B2E5D4880002304CF /* Flash-Chat */,
 			);
 			name = "Flash-Chat";
 			packageProductDependencies = (
@@ -122,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBA953372E5D48DD002304CF /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,11 +155,12 @@
 				DEVELOPMENT_TEAM = 688M7RU7KA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Flash-Chat/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -176,11 +184,12 @@
 				DEVELOPMENT_TEAM = 688M7RU7KA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Flash-Chat/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
