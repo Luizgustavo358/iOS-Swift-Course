@@ -27,3 +27,15 @@ extension UIButton {
 let button = UIButton(frame: CGRect(x: 0, y: 0, width: 50, height: 50))
 button.backgroundColor = .red
 button.makeCircular()
+
+var a = [
+    "btc": [
+        "brl": 1.2
+    ]
+]
+
+let b = a.values
+
+for c in b {
+    print(c.values)
+}
