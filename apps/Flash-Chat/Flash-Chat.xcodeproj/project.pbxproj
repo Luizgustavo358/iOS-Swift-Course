@@ -20,22 +20,9 @@
 		EBA953362E5D48DD002304CF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		EBA953322E5D4880002304CF /* Exceptions for "Flash-Chat" folder in "Flash-Chat" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = EBA952F72E5D39C3002304CF /* Flash-Chat */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		EBA9532B2E5D4880002304CF /* Flash-Chat */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				EBA953322E5D4880002304CF /* Exceptions for "Flash-Chat" folder in "Flash-Chat" target */,
-			);
 			path = "Flash-Chat";
 			sourceTree = "<group>";
 		};
