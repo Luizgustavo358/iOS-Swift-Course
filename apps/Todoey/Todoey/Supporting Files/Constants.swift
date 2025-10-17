@@ -6,7 +6,9 @@
 //
 
 struct K {
-    static let cellIdentifier = "ToDoItemCell"
-    static let itemArray = "TodoListArray"
-    static let dataModel = "DataModel"
+    static let cellIdentifier     = "ToDoItemCell"
+    static let categoryIdentifier = "CategoryCell"
+    static let itemArray          = "TodoListArray"
+    static let dataModel          = "DataModel"
+    static let itemSegueWay       = "goToItems"
 }
