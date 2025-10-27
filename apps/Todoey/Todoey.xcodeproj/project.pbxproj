@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EB5C5B312EA9BBCC005D8148 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = EB5C5B302EA9BBCC005D8148 /* RealmSwift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		EB05775E2E88816400CD7F53 /* Todoey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todoey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -36,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB5C5B312EA9BBCC005D8148 /* RealmSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,7 @@
 			);
 			name = Todoey;
 			packageProductDependencies = (
+				EB5C5B302EA9BBCC005D8148 /* RealmSwift */,
 			);
 			productName = Todoey;
 			productReference = EB05775E2E88816400CD7F53 /* Todoey.app */;
@@ -107,6 +113,9 @@
 			);
 			mainGroup = EB0577552E88816400CD7F53;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				EB5C5B2D2EA9BBCC005D8148 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = EB05775F2E88816400CD7F53 /* Products */;
 			projectDirPath = "";
@@ -345,6 +354,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EB5C5B2D2EA9BBCC005D8148 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EB5C5B302EA9BBCC005D8148 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB5C5B2D2EA9BBCC005D8148 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EB0577562E88816400CD7F53 /* Project object */;
 }
