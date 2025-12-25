@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		EB072E862EC6B0B90055FFD6 /* SwipeCellKit in Frameworks */ = {isa = PBXBuildFile; productRef = EB072E852EC6B0B90055FFD6 /* SwipeCellKit */; };
 		EB5C5B312EA9BBCC005D8148 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = EB5C5B302EA9BBCC005D8148 /* RealmSwift */; };
+		EB6B249B2EFCD2C70020E606 /* Chameleon in Frameworks */ = {isa = PBXBuildFile; productRef = EB6B249A2EFCD2C70020E606 /* Chameleon */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB072E862EC6B0B90055FFD6 /* SwipeCellKit in Frameworks */,
+				EB6B249B2EFCD2C70020E606 /* Chameleon in Frameworks */,
 				EB5C5B312EA9BBCC005D8148 /* RealmSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -87,6 +89,7 @@
 			packageProductDependencies = (
 				EB5C5B302EA9BBCC005D8148 /* RealmSwift */,
 				EB072E852EC6B0B90055FFD6 /* SwipeCellKit */,
+				EB6B249A2EFCD2C70020E606 /* Chameleon */,
 			);
 			productName = Todoey;
 			productReference = EB05775E2E88816400CD7F53 /* Todoey.app */;
@@ -119,6 +122,7 @@
 			packageReferences = (
 				EB5C5B2D2EA9BBCC005D8148 /* XCRemoteSwiftPackageReference "realm-swift" */,
 				EB072E842EC6B0B90055FFD6 /* XCRemoteSwiftPackageReference "SwipeCellKit" */,
+				EB6B24992EFCD2C70020E606 /* XCRemoteSwiftPackageReference "ChameleonFramework" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = EB05775F2E88816400CD7F53 /* Products */;
@@ -376,6 +380,14 @@
 				kind = branch;
 			};
 		};
+		EB6B24992EFCD2C70020E606 /* XCRemoteSwiftPackageReference "ChameleonFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/starkdmi/ChameleonFramework.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -388,6 +400,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = EB5C5B2D2EA9BBCC005D8148 /* XCRemoteSwiftPackageReference "realm-swift" */;
 			productName = RealmSwift;
+		};
+		EB6B249A2EFCD2C70020E606 /* Chameleon */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB6B24992EFCD2C70020E606 /* XCRemoteSwiftPackageReference "ChameleonFramework" */;
+			productName = Chameleon;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
