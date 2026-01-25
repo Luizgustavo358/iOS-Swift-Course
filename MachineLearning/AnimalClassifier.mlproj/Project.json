@@ -1,0 +1,29 @@
+{
+  "activityEntities" : [
+    "projectCreated",
+    [
+      {
+        "createdDate" : "2026-01-16T02:14:36Z",
+        "event" : "projectCreated",
+        "id" : "5EBC2681-8785-4827-B587-D44CB7055A6A",
+        "subtitle" : "AnimalClassifier",
+        "title" : "Project Created"
+      }
+    ]
+  ],
+  "authorName" : "Luiz Gustavo Bragança dos Santos",
+  "createdDate" : "2026-01-16T02:14:36Z",
+  "description" : "",
+  "id" : "A78C8ABA-54A4-4FB0-9F8F-C718418BC21A",
+  "license" : "",
+  "location" : "",
+  "modifiedDate" : "2026-01-16T02:14:36Z",
+  "projectName" : "AnimalClassifier",
+  "settingsEntity" : {
+    "snapshotOnExtendTraining" : true,
+    "snapshotOnResumeTraining" : false
+  },
+  "taskType" : "imageClassifier",
+  "title" : "Image Classification",
+  "version" : "1.1"
+}

@@ -1,0 +1,332 @@
+{
+  "activityEntities" : [
+    "dataSourceCreated",
+    [
+      {
+        "createdDate" : "2026-01-16T02:14:52Z",
+        "event" : "dataSourceCreated",
+        "id" : "16275452-5246-4EE0-A6FC-B8FC1EDC7D7E",
+        "subtitle" : "Training Data",
+        "title" : "Data Source Created"
+      }
+    ],
+    "dataSourceTrainingStarted",
+    [
+      {
+        "createdDate" : "2026-01-16T02:16:38Z",
+        "event" : "dataSourceTrainingStarted",
+        "id" : "9F52CB85-7A56-4A48-A2BA-8717D4F453D4",
+        "subtitle" : "AnimalClassifier 1",
+        "title" : "Used By"
+      }
+    ],
+    "dataSourceMetrics",
+    [
+      {
+        "createdDate" : "2026-01-16T02:16:38Z",
+        "event" : "dataSourceMetrics",
+        "id" : "0A095FD9-A173-49C8-8880-D866C34CB559",
+        "subtitle" : "3 Classes, 60 Items",
+        "title" : "Data Summary"
+      }
+    ]
+  ],
+  "createdDate" : "2026-01-16T02:14:52Z",
+  "dataPathRelativeToProjectURL" : "../../../../../../../Downloads/Training%20Data/",
+  "dataResult" : {
+    "classesCount" : 3,
+    "createdDate" : "2026-01-16T02:14:52Z",
+    "dataAnalysis" : {
+      "classifierAnalysis" : {
+        "details" : [
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown-9.jpeg",
+          [
+            "Rabbit"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/images-5.jpeg",
+          [
+            "Dog"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown-8.jpeg",
+          [
+            "Rabbit"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/images-10.jpeg",
+          [
+            "Dog"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/Unknown.jpeg",
+          [
+            "Dog"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/images-11.jpeg",
+          [
+            "Dog"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown-12.jpeg",
+          [
+            "Rabbit"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/Unknown-3.jpeg",
+          [
+            "Cat"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown-17.jpeg",
+          [
+            "Rabbit"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/Unknown-6.jpeg",
+          [
+            "Cat"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown.jpeg",
+          [
+            "Rabbit"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/images-6.jpeg",
+          [
+            "Dog"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/Unknown-5.jpeg",
+          [
+            "Dog"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/Unknown-4.jpeg",
+          [
+            "Cat"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/images-5.jpeg",
+          [
+            "Cat"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown-14.jpeg",
+          [
+            "Rabbit"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/Unknown-3.jpeg",
+          [
+            "Dog"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown-3.jpeg",
+          [
+            "Rabbit"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/images-2.jpeg",
+          [
+            "Dog"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/images-4.jpeg",
+          [
+            "Dog"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/images-2.jpeg",
+          [
+            "Cat"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/Unknown-4.jpeg",
+          [
+            "Dog"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/images-9.jpeg",
+          [
+            "Dog"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/images-7.jpeg",
+          [
+            "Dog"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/Unknown-8.jpeg",
+          [
+            "Cat"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown-15.jpeg",
+          [
+            "Rabbit"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/Unknown-5.jpeg",
+          [
+            "Cat"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/Unknown.jpeg",
+          [
+            "Cat"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/Unknown-6.jpeg",
+          [
+            "Dog"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/images-8.jpeg",
+          [
+            "Cat"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/images-9.jpeg",
+          [
+            "Cat"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/images-4.jpeg",
+          [
+            "Cat"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/images-12.jpeg",
+          [
+            "Dog"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/images-6.jpeg",
+          [
+            "Cat"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown-11.jpeg",
+          [
+            "Rabbit"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/images-1.jpeg",
+          [
+            "Dog"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/images-1.jpeg",
+          [
+            "Cat"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown-4.jpeg",
+          [
+            "Rabbit"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/Unknown-1.jpeg",
+          [
+            "Dog"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown-10.jpeg",
+          [
+            "Rabbit"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/images-3.jpeg",
+          [
+            "Dog"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/images-8.jpeg",
+          [
+            "Dog"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown-16.jpeg",
+          [
+            "Rabbit"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/Unknown-7.jpeg",
+          [
+            "Cat"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown-6.jpeg",
+          [
+            "Rabbit"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown-13.jpeg",
+          [
+            "Rabbit"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown-19.jpeg",
+          [
+            "Rabbit"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown-2.jpeg",
+          [
+            "Rabbit"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/images.jpeg",
+          [
+            "Dog"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown-5.jpeg",
+          [
+            "Rabbit"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown-1.jpeg",
+          [
+            "Rabbit"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/Unknown-2.jpeg",
+          [
+            "Dog"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/images.jpeg",
+          [
+            "Cat"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/Unknown-9.jpeg",
+          [
+            "Cat"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown-18.jpeg",
+          [
+            "Rabbit"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/Unknown-2.jpeg",
+          [
+            "Cat"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/images-3.jpeg",
+          [
+            "Cat"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/Unknown-1.jpeg",
+          [
+            "Cat"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown-7.jpeg",
+          [
+            "Rabbit"
+          ],
+          "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/images-7.jpeg",
+          [
+            "Cat"
+          ]
+        ],
+        "labelStats" : {
+          "Cat" : 20,
+          "Dog" : 20,
+          "Rabbit" : 20
+        }
+      },
+      "issues" : [
+        {
+          "description" : "3 classes found, including Rabbit, Cat, Dog",
+          "severity" : "debug"
+        },
+        {
+          "description" : "60 images found, automatically creating validation set",
+          "severity" : "good"
+        },
+        {
+          "description" : "Smallest class is \"Dog\" with 20 images",
+          "severity" : "debug"
+        },
+        {
+          "description" : "Largest class is \"Rabbit\" with 20 images",
+          "severity" : "debug"
+        }
+      ],
+      "objectDetectorAnalysis" : {
+        "details" : {
+
+        }
+      },
+      "summary" : {
+        "canUseValidation" : 1,
+        "classCount" : 3,
+        "sampleCount" : 60
+      }
+    },
+    "dataSourceID" : "BCEE9AD5-1293-4D53-B354-85676BF92A0B",
+    "dataURL" : "file:///Users/luizgustavo/Downloads/Training%20Data/",
+    "itemsCount" : 60
+  },
+  "dataURL" : "file:///Users/luizgustavo/Downloads/Training%20Data/",
+  "experimentIDs" : [
+    "7A7C0911-3586-41CA-B5D7-BD0C204442EB"
+  ],
+  "id" : "BCEE9AD5-1293-4D53-B354-85676BF92A0B",
+  "modifiedDate" : "2026-01-16T02:16:38Z",
+  "pathType" : 0,
+  "preferredFilename" : "Training Data",
+  "title" : "Training Data",
+  "version" : "1.0"
+}
