@@ -1,0 +1,1535 @@
+{
+  "activityEntities" : [
+    "trainingStarted",
+    [
+      {
+        "createdDate" : "2026-01-16T02:16:38Z",
+        "event" : "trainingStarted",
+        "id" : "AB1BCD2F-6D27-4C8E-889B-CEA0B57ACC7D",
+        "subtitle" : "25 iterations",
+        "title" : "Training Started"
+      }
+    ],
+    "experimentCreated",
+    [
+      {
+        "createdDate" : "2026-01-16T02:14:36Z",
+        "event" : "experimentCreated",
+        "id" : "FED81256-508B-4644-8548-3114BD36ACBD",
+        "subtitle" : "AnimalClassifier 1",
+        "title" : "Model Source Created"
+      }
+    ],
+    "trainingFinished",
+    [
+      {
+        "createdDate" : "2026-01-16T02:16:39Z",
+        "event" : "trainingFinished",
+        "id" : "12B02BFD-349D-4606-81AC-DCE7E519FF80",
+        "subtitle" : "Model converged at 2 iterations",
+        "title" : "Training Completed"
+      }
+    ],
+    "evaluationDataAdded",
+    [
+      {
+        "createdDate" : "2026-01-16T02:15:09Z",
+        "event" : "evaluationDataAdded",
+        "id" : "DF64CB24-3136-46BB-A5B9-2E5210081DA0",
+        "subtitle" : "Testing Data",
+        "title" : "Testing Data Added"
+      }
+    ],
+    "evaluationStarted",
+    [
+      {
+        "createdDate" : "2026-01-16T02:16:42Z",
+        "event" : "evaluationStarted",
+        "id" : "30FE9B22-3A0C-46D0-8610-388F30E50527",
+        "subtitle" : "AnimalClassifier 1",
+        "title" : "Testing Started"
+      }
+    ],
+    "trainingDataAdded",
+    [
+      {
+        "createdDate" : "2026-01-16T02:14:52Z",
+        "event" : "trainingDataAdded",
+        "id" : "AE508F26-D953-438F-9C85-C652DD742E68",
+        "subtitle" : "Training Data",
+        "title" : "Training Data Added"
+      }
+    ],
+    "evaluationFinished",
+    [
+      {
+        "createdDate" : "2026-01-16T02:16:42Z",
+        "event" : "evaluationFinished",
+        "id" : "E5E68D2E-2B10-4BD0-8BD6-4B742D5076AC",
+        "subtitle" : "AnimalClassifier 1",
+        "title" : "Testing Completed"
+      }
+    ]
+  ],
+  "contentDataResult" : {
+    "createdDate" : "2026-01-16T02:14:52Z"
+  },
+  "createdDate" : "2026-01-16T02:14:36Z",
+  "evaluationContainerEntity" : {
+    "createdDate" : "2026-01-16T02:16:42Z",
+    "evaluationEntities" : [
+
+    ],
+    "id" : "bc3217a3-0354-4365-9a54-013567f4e965",
+    "modifiedDate" : "2026-01-16T02:16:42Z",
+    "previewType" : "imageClassifier",
+    "testingEvaluationEntity" : {
+      "accuracy" : 0.9411764740943909,
+      "analysedDataType" : "datasource",
+      "createdDate" : "2026-01-16T02:14:36Z",
+      "dataResult" : {
+        "classesCount" : 3,
+        "createdDate" : "2026-01-16T02:14:52Z",
+        "dataAnalysis" : {
+          "classifierAnalysis" : {
+            "details" : [
+              "file:///Users/luizgustavo/Downloads/Testing%20Data/Dog/images-3.jpeg",
+              [
+                "Dog"
+              ],
+              "file:///Users/luizgustavo/Downloads/Testing%20Data/Dog/images-1.jpeg",
+              [
+                "Dog"
+              ],
+              "file:///Users/luizgustavo/Downloads/Testing%20Data/Cat/images-3.jpeg",
+              [
+                "Cat"
+              ],
+              "file:///Users/luizgustavo/Downloads/Testing%20Data/Rabbit/images-1.jpeg",
+              [
+                "Rabbit"
+              ],
+              "file:///Users/luizgustavo/Downloads/Testing%20Data/Rabbit/images-3.jpeg",
+              [
+                "Rabbit"
+              ],
+              "file:///Users/luizgustavo/Downloads/Testing%20Data/Rabbit/images-4.jpeg",
+              [
+                "Rabbit"
+              ],
+              "file:///Users/luizgustavo/Downloads/Testing%20Data/Rabbit/images-2.jpeg",
+              [
+                "Rabbit"
+              ],
+              "file:///Users/luizgustavo/Downloads/Testing%20Data/Cat/images-4.jpeg",
+              [
+                "Cat"
+              ],
+              "file:///Users/luizgustavo/Downloads/Testing%20Data/Cat/images-2.jpeg",
+              [
+                "Cat"
+              ],
+              "file:///Users/luizgustavo/Downloads/Testing%20Data/Dog/images-4.jpeg",
+              [
+                "Dog"
+              ],
+              "file:///Users/luizgustavo/Downloads/Testing%20Data/Dog/images.jpeg",
+              [
+                "Dog"
+              ],
+              "file:///Users/luizgustavo/Downloads/Testing%20Data/Rabbit/images-5.jpeg",
+              [
+                "Rabbit"
+              ],
+              "file:///Users/luizgustavo/Downloads/Testing%20Data/Dog/images-2.jpeg",
+              [
+                "Dog"
+              ],
+              "file:///Users/luizgustavo/Downloads/Testing%20Data/Cat/images-1.jpeg",
+              [
+                "Cat"
+              ],
+              "file:///Users/luizgustavo/Downloads/Testing%20Data/Rabbit/images.jpeg",
+              [
+                "Rabbit"
+              ],
+              "file:///Users/luizgustavo/Downloads/Testing%20Data/Dog/images-5.jpeg",
+              [
+                "Dog"
+              ],
+              "file:///Users/luizgustavo/Downloads/Testing%20Data/Cat/images.jpeg",
+              [
+                "Cat"
+              ]
+            ],
+            "labelStats" : {
+              "Cat" : 5,
+              "Dog" : 6,
+              "Rabbit" : 6
+            }
+          },
+          "issues" : [
+            {
+              "description" : "3 classes found, including Rabbit, Dog, Cat",
+              "severity" : "debug"
+            },
+            {
+              "description" : "Less than 50 total images found - add more to improve model validation",
+              "severity" : "warning"
+            },
+            {
+              "description" : "Smallest class is \"Cat\" with 5 images",
+              "severity" : "debug"
+            },
+            {
+              "description" : "Largest class is \"Rabbit\" with 6 images",
+              "severity" : "debug"
+            }
+          ],
+          "objectDetectorAnalysis" : {
+            "details" : {
+
+            }
+          },
+          "summary" : {
+            "canUseValidation" : 0,
+            "classCount" : 3,
+            "sampleCount" : 17
+          }
+        },
+        "dataSourceID" : "4526E01C-79DE-476C-89D5-8D81FF6A355C",
+        "dataURL" : "file:///Users/luizgustavo/Downloads/Testing%20Data/",
+        "itemsCount" : 17
+      },
+      "dataSourceID" : "4526E01C-79DE-476C-89D5-8D81FF6A355C",
+      "evaluationResult" : {
+        "imageClassifier" : {
+          "accuracy" : 0.9411764740943909,
+          "confusionMatrix" : [
+            {
+              "actual" : "Cat",
+              "count" : 4,
+              "expected" : "Cat"
+            },
+            {
+              "actual" : "Cat",
+              "count" : 1,
+              "expected" : "Rabbit"
+            },
+            {
+              "actual" : "Dog",
+              "count" : 6,
+              "expected" : "Dog"
+            },
+            {
+              "actual" : "Rabbit",
+              "count" : 6,
+              "expected" : "Rabbit"
+            }
+          ],
+          "detail" : {
+            "predictions" : {
+              "Cat" : [
+                {
+                  "truePositive" : {
+
+                  }
+                },
+                [
+                  {
+                    "actual" : "Cat",
+                    "predicted" : "Cat",
+                    "predictions" : {
+                      "Cat" : 0.9999999,
+                      "Dog" : 1.2930321e-09,
+                      "Rabbit" : 1.14529115e-07
+                    },
+                    "url" : "file:///Users/luizgustavo/Downloads/Testing%20Data/Cat/images-3.jpeg"
+                  },
+                  {
+                    "actual" : "Cat",
+                    "predicted" : "Cat",
+                    "predictions" : {
+                      "Cat" : 0.9999969,
+                      "Dog" : 1.6733501e-06,
+                      "Rabbit" : 1.4043598e-06
+                    },
+                    "url" : "file:///Users/luizgustavo/Downloads/Testing%20Data/Cat/images.jpeg"
+                  },
+                  {
+                    "actual" : "Cat",
+                    "predicted" : "Cat",
+                    "predictions" : {
+                      "Cat" : 0.99998367,
+                      "Dog" : 5.3917465e-06,
+                      "Rabbit" : 1.0947948e-05
+                    },
+                    "url" : "file:///Users/luizgustavo/Downloads/Testing%20Data/Cat/images-4.jpeg"
+                  },
+                  {
+                    "actual" : "Cat",
+                    "predicted" : "Cat",
+                    "predictions" : {
+                      "Cat" : 1,
+                      "Dog" : 1.7248179e-10,
+                      "Rabbit" : 3.7513423e-11
+                    },
+                    "url" : "file:///Users/luizgustavo/Downloads/Testing%20Data/Cat/images-1.jpeg"
+                  }
+                ],
+                {
+                  "falseNegative" : {
+
+                  }
+                },
+                [
+                  {
+                    "actual" : "Cat",
+                    "predicted" : "Rabbit",
+                    "predictions" : {
+                      "Cat" : 0.2394774,
+                      "Dog" : 1.4608766e-08,
+                      "Rabbit" : 0.7605226
+                    },
+                    "url" : "file:///Users/luizgustavo/Downloads/Testing%20Data/Cat/images-2.jpeg"
+                  }
+                ],
+                {
+                  "falsePositive" : {
+
+                  }
+                },
+                [
+
+                ]
+              ],
+              "Dog" : [
+                {
+                  "falseNegative" : {
+
+                  }
+                },
+                [
+
+                ],
+                {
+                  "truePositive" : {
+
+                  }
+                },
+                [
+                  {
+                    "actual" : "Dog",
+                    "predicted" : "Dog",
+                    "predictions" : {
+                      "Cat" : 4.3364315e-10,
+                      "Dog" : 1,
+                      "Rabbit" : 1.9855373e-16
+                    },
+                    "url" : "file:///Users/luizgustavo/Downloads/Testing%20Data/Dog/images-3.jpeg"
+                  },
+                  {
+                    "actual" : "Dog",
+                    "predicted" : "Dog",
+                    "predictions" : {
+                      "Cat" : 3.034266e-08,
+                      "Dog" : 0.99999994,
+                      "Rabbit" : 9.371881e-12
+                    },
+                    "url" : "file:///Users/luizgustavo/Downloads/Testing%20Data/Dog/images.jpeg"
+                  },
+                  {
+                    "actual" : "Dog",
+                    "predicted" : "Dog",
+                    "predictions" : {
+                      "Cat" : 6.789394e-11,
+                      "Dog" : 1,
+                      "Rabbit" : 3.6570985e-13
+                    },
+                    "url" : "file:///Users/luizgustavo/Downloads/Testing%20Data/Dog/images-2.jpeg"
+                  },
+                  {
+                    "actual" : "Dog",
+                    "predicted" : "Dog",
+                    "predictions" : {
+                      "Cat" : 7.566704e-12,
+                      "Dog" : 1,
+                      "Rabbit" : 9.511599e-19
+                    },
+                    "url" : "file:///Users/luizgustavo/Downloads/Testing%20Data/Dog/images-5.jpeg"
+                  },
+                  {
+                    "actual" : "Dog",
+                    "predicted" : "Dog",
+                    "predictions" : {
+                      "Cat" : 1.8377464e-11,
+                      "Dog" : 1,
+                      "Rabbit" : 4.891003e-12
+                    },
+                    "url" : "file:///Users/luizgustavo/Downloads/Testing%20Data/Dog/images-4.jpeg"
+                  },
+                  {
+                    "actual" : "Dog",
+                    "predicted" : "Dog",
+                    "predictions" : {
+                      "Cat" : 2.484766e-12,
+                      "Dog" : 1,
+                      "Rabbit" : 1.7714952e-20
+                    },
+                    "url" : "file:///Users/luizgustavo/Downloads/Testing%20Data/Dog/images-1.jpeg"
+                  }
+                ],
+                {
+                  "falsePositive" : {
+
+                  }
+                },
+                [
+
+                ]
+              ],
+              "Rabbit" : [
+                {
+                  "falseNegative" : {
+
+                  }
+                },
+                [
+
+                ],
+                {
+                  "falsePositive" : {
+
+                  }
+                },
+                [
+                  {
+                    "actual" : "Cat",
+                    "predicted" : "Rabbit",
+                    "predictions" : {
+                      "Cat" : 0.2394774,
+                      "Dog" : 1.4608766e-08,
+                      "Rabbit" : 0.7605226
+                    },
+                    "url" : "file:///Users/luizgustavo/Downloads/Testing%20Data/Cat/images-2.jpeg"
+                  }
+                ],
+                {
+                  "truePositive" : {
+
+                  }
+                },
+                [
+                  {
+                    "actual" : "Rabbit",
+                    "predicted" : "Rabbit",
+                    "predictions" : {
+                      "Cat" : 1.6604707e-28,
+                      "Dog" : 7.02621e-37,
+                      "Rabbit" : 1
+                    },
+                    "url" : "file:///Users/luizgustavo/Downloads/Testing%20Data/Rabbit/images-3.jpeg"
+                  },
+                  {
+                    "actual" : "Rabbit",
+                    "predicted" : "Rabbit",
+                    "predictions" : {
+                      "Cat" : 8.60156e-40,
+                      "Dog" : 0,
+                      "Rabbit" : 1
+                    },
+                    "url" : "file:///Users/luizgustavo/Downloads/Testing%20Data/Rabbit/images.jpeg"
+                  },
+                  {
+                    "actual" : "Rabbit",
+                    "predicted" : "Rabbit",
+                    "predictions" : {
+                      "Cat" : 1.424025e-29,
+                      "Dog" : 2.965e-42,
+                      "Rabbit" : 1
+                    },
+                    "url" : "file:///Users/luizgustavo/Downloads/Testing%20Data/Rabbit/images-2.jpeg"
+                  },
+                  {
+                    "actual" : "Rabbit",
+                    "predicted" : "Rabbit",
+                    "predictions" : {
+                      "Cat" : 3.3663417e-36,
+                      "Dog" : 0,
+                      "Rabbit" : 1
+                    },
+                    "url" : "file:///Users/luizgustavo/Downloads/Testing%20Data/Rabbit/images-5.jpeg"
+                  },
+                  {
+                    "actual" : "Rabbit",
+                    "predicted" : "Rabbit",
+                    "predictions" : {
+                      "Cat" : 2.7099852e-14,
+                      "Dog" : 2.2249672e-18,
+                      "Rabbit" : 1
+                    },
+                    "url" : "file:///Users/luizgustavo/Downloads/Testing%20Data/Rabbit/images-4.jpeg"
+                  },
+                  {
+                    "actual" : "Rabbit",
+                    "predicted" : "Rabbit",
+                    "predictions" : {
+                      "Cat" : 5.27939e-28,
+                      "Dog" : 1.4577e-40,
+                      "Rabbit" : 1
+                    },
+                    "url" : "file:///Users/luizgustavo/Downloads/Testing%20Data/Rabbit/images-1.jpeg"
+                  }
+                ]
+              ]
+            }
+          },
+          "statsByLabel" : {
+            "Cat" : {
+              "count" : 5,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 1,
+                  "recall" : 0.800000011920929
+                }
+              }
+            },
+            "Dog" : {
+              "count" : 6,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 1,
+                  "recall" : 1
+                }
+              }
+            },
+            "Rabbit" : {
+              "count" : 6,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 0.8571428656578064,
+                  "recall" : 1
+                }
+              }
+            }
+          }
+        }
+      },
+      "finishTime" : "2026-01-16T02:16:42Z",
+      "id" : "4d0b4a80-f5b6-4c04-9172-b7d3993fe4ec",
+      "startTime" : "2026-01-16T02:16:42Z"
+    },
+    "trainingEvaluationEntity" : {
+      "analysedDataType" : "none",
+      "createdDate" : "2026-01-16T02:14:36Z",
+      "dataResult" : {
+        "classesCount" : 3,
+        "createdDate" : "2026-01-16T02:14:52Z",
+        "dataAnalysis" : {
+          "classifierAnalysis" : {
+            "details" : [
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown-5.jpeg",
+              [
+                "Rabbit"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/Unknown-6.jpeg",
+              [
+                "Cat"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown-18.jpeg",
+              [
+                "Rabbit"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/Unknown-1.jpeg",
+              [
+                "Dog"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/Unknown.jpeg",
+              [
+                "Dog"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown.jpeg",
+              [
+                "Rabbit"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/images-4.jpeg",
+              [
+                "Cat"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/images-10.jpeg",
+              [
+                "Dog"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown-13.jpeg",
+              [
+                "Rabbit"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/Unknown-3.jpeg",
+              [
+                "Cat"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/images-6.jpeg",
+              [
+                "Cat"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/Unknown-3.jpeg",
+              [
+                "Dog"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/images.jpeg",
+              [
+                "Dog"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/images-9.jpeg",
+              [
+                "Cat"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/images-4.jpeg",
+              [
+                "Dog"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown-11.jpeg",
+              [
+                "Rabbit"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/images-5.jpeg",
+              [
+                "Dog"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/Unknown-9.jpeg",
+              [
+                "Cat"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/Unknown-6.jpeg",
+              [
+                "Dog"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown-6.jpeg",
+              [
+                "Rabbit"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/Unknown-8.jpeg",
+              [
+                "Cat"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/Unknown-4.jpeg",
+              [
+                "Cat"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/Unknown-5.jpeg",
+              [
+                "Dog"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/images-7.jpeg",
+              [
+                "Dog"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown-16.jpeg",
+              [
+                "Rabbit"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown-1.jpeg",
+              [
+                "Rabbit"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown-19.jpeg",
+              [
+                "Rabbit"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/Unknown.jpeg",
+              [
+                "Cat"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/Unknown-1.jpeg",
+              [
+                "Cat"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/images-1.jpeg",
+              [
+                "Cat"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/Unknown-7.jpeg",
+              [
+                "Cat"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown-7.jpeg",
+              [
+                "Rabbit"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown-14.jpeg",
+              [
+                "Rabbit"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/images-2.jpeg",
+              [
+                "Cat"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown-2.jpeg",
+              [
+                "Rabbit"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/images-7.jpeg",
+              [
+                "Cat"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/images-5.jpeg",
+              [
+                "Cat"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown-12.jpeg",
+              [
+                "Rabbit"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown-8.jpeg",
+              [
+                "Rabbit"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/Unknown-5.jpeg",
+              [
+                "Cat"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown-9.jpeg",
+              [
+                "Rabbit"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/images-1.jpeg",
+              [
+                "Dog"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/images-11.jpeg",
+              [
+                "Dog"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/Unknown-4.jpeg",
+              [
+                "Dog"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/Unknown-2.jpeg",
+              [
+                "Dog"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown-3.jpeg",
+              [
+                "Rabbit"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/images-2.jpeg",
+              [
+                "Dog"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/images-12.jpeg",
+              [
+                "Dog"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/images-3.jpeg",
+              [
+                "Dog"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/images-8.jpeg",
+              [
+                "Dog"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/images-3.jpeg",
+              [
+                "Cat"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown-15.jpeg",
+              [
+                "Rabbit"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/images.jpeg",
+              [
+                "Cat"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/Unknown-2.jpeg",
+              [
+                "Cat"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/images-8.jpeg",
+              [
+                "Cat"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/images-6.jpeg",
+              [
+                "Dog"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown-4.jpeg",
+              [
+                "Rabbit"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/images-9.jpeg",
+              [
+                "Dog"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown-17.jpeg",
+              [
+                "Rabbit"
+              ],
+              "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown-10.jpeg",
+              [
+                "Rabbit"
+              ]
+            ],
+            "labelStats" : {
+              "Cat" : 20,
+              "Dog" : 20,
+              "Rabbit" : 20
+            }
+          },
+          "issues" : [
+            {
+              "description" : "3 classes found, including Rabbit, Cat, Dog",
+              "severity" : "debug"
+            },
+            {
+              "description" : "60 images found, automatically creating validation set",
+              "severity" : "good"
+            },
+            {
+              "description" : "Smallest class is \"Dog\" with 20 images",
+              "severity" : "debug"
+            },
+            {
+              "description" : "Largest class is \"Rabbit\" with 20 images",
+              "severity" : "debug"
+            }
+          ],
+          "objectDetectorAnalysis" : {
+            "details" : {
+
+            }
+          },
+          "summary" : {
+            "canUseValidation" : 1,
+            "classCount" : 3,
+            "sampleCount" : 60
+          }
+        },
+        "dataSourceID" : "BCEE9AD5-1293-4D53-B354-85676BF92A0B",
+        "dataURL" : "file:///Users/luizgustavo/Downloads/Training%20Data/",
+        "itemsCount" : 60
+      },
+      "dataSourceID" : "BCEE9AD5-1293-4D53-B354-85676BF92A0B",
+      "evaluationResult" : {
+        "imageClassifier" : {
+          "accuracy" : 1,
+          "confusionMatrix" : [
+            {
+              "actual" : "Cat",
+              "count" : 18,
+              "expected" : "Cat"
+            },
+            {
+              "actual" : "Dog",
+              "count" : 18,
+              "expected" : "Dog"
+            },
+            {
+              "actual" : "Rabbit",
+              "count" : 18,
+              "expected" : "Rabbit"
+            }
+          ],
+          "statsByLabel" : {
+            "Cat" : {
+              "count" : 18,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 1,
+                  "recall" : 1
+                }
+              }
+            },
+            "Dog" : {
+              "count" : 18,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 1,
+                  "recall" : 1
+                }
+              }
+            },
+            "Rabbit" : {
+              "count" : 18,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 1,
+                  "recall" : 1
+                }
+              }
+            }
+          }
+        }
+      },
+      "id" : "008ece5c-1c5f-491a-8c87-1837a6fc070b"
+    },
+    "validationEvaluationEntity" : {
+      "analysedDataType" : "auto",
+      "createdDate" : "2026-01-16T02:14:36Z",
+      "dataResult" : {
+        "createdDate" : "2026-01-16T02:14:52Z"
+      },
+      "evaluationResult" : {
+        "imageClassifier" : {
+          "accuracy" : 1,
+          "confusionMatrix" : [
+            {
+              "actual" : "Cat",
+              "count" : 2,
+              "expected" : "Cat"
+            },
+            {
+              "actual" : "Dog",
+              "count" : 2,
+              "expected" : "Dog"
+            },
+            {
+              "actual" : "Rabbit",
+              "count" : 2,
+              "expected" : "Rabbit"
+            }
+          ],
+          "statsByLabel" : {
+            "Cat" : {
+              "count" : 2,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 1,
+                  "recall" : 1
+                }
+              }
+            },
+            "Dog" : {
+              "count" : 2,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 1,
+                  "recall" : 1
+                }
+              }
+            },
+            "Rabbit" : {
+              "count" : 2,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 1,
+                  "recall" : 1
+                }
+              }
+            }
+          }
+        }
+      },
+      "id" : "2f283cbd-b1e3-4aa6-b120-16506c27e5d3"
+    }
+  },
+  "evaluationEntity" : {
+    "analysedDataType" : "none",
+    "dataResult" : {
+
+    },
+    "id" : "88356e92-9402-49b1-9efe-473066ccb0da"
+  },
+  "evaluationState" : "evaluated",
+  "id" : "7A7C0911-3586-41CA-B5D7-BD0C204442EB",
+  "modelEntity" : {
+    "createdDate" : "2026-01-16T02:14:36Z",
+    "experimentID" : "7A7C0911-3586-41CA-B5D7-BD0C204442EB",
+    "id" : "847432B3-8B49-48A2-B95E-AFA50A4D4A45",
+    "modelURL" : "Models/AnimalClassifier%201.mlmodel",
+    "modifiedDate" : "2026-01-16T02:14:36Z",
+    "title" : "",
+    "version" : "1.0"
+  },
+  "modifiedDate" : "2026-01-16T02:16:42Z",
+  "preferredFilename" : "AnimalClassifier 1",
+  "settingEntity" : {
+    "algorithmType" : "maxEnt",
+    "augmentations" : [
+
+    ],
+    "featureExtractorType" : "scenePrintV1",
+    "featureNames" : [
+
+    ],
+    "handActionClassifierAugmentations" : [
+
+    ],
+    "handPoseClassifierAugmentations" : [
+
+    ],
+    "harVideoAugmentations" : 0,
+    "iterationCount" : 25,
+    "seedType" : "default",
+    "styleTransferAlgorithmType" : "image",
+    "taskType" : "imageClassifier",
+    "transferLearningEmbeddingType" : "dynamic"
+  },
+  "snapshotRole" : {
+    "withoutSnapshots" : 0
+  },
+  "state" : "trained",
+  "title" : "AnimalClassifier 1",
+  "trainingEntity" : {
+    "analysedDataType" : "datasource",
+    "checkpointMetrics" : {
+      "25" : {
+        "createdDate" : "2026-01-16T02:16:39Z",
+        "iteration" : 25,
+        "metrics" : {
+
+        }
+      }
+    },
+    "dataResult" : {
+      "classesCount" : 3,
+      "createdDate" : "2026-01-16T02:14:52Z",
+      "dataAnalysis" : {
+        "classifierAnalysis" : {
+          "details" : [
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown-5.jpeg",
+            [
+              "Rabbit"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/Unknown-6.jpeg",
+            [
+              "Cat"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown-18.jpeg",
+            [
+              "Rabbit"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/Unknown-1.jpeg",
+            [
+              "Dog"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/Unknown.jpeg",
+            [
+              "Dog"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown.jpeg",
+            [
+              "Rabbit"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/images-4.jpeg",
+            [
+              "Cat"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/images-10.jpeg",
+            [
+              "Dog"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown-13.jpeg",
+            [
+              "Rabbit"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/Unknown-3.jpeg",
+            [
+              "Cat"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/images-6.jpeg",
+            [
+              "Cat"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/Unknown-3.jpeg",
+            [
+              "Dog"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/images.jpeg",
+            [
+              "Dog"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/images-9.jpeg",
+            [
+              "Cat"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/images-4.jpeg",
+            [
+              "Dog"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown-11.jpeg",
+            [
+              "Rabbit"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/images-5.jpeg",
+            [
+              "Dog"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/Unknown-9.jpeg",
+            [
+              "Cat"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/Unknown-6.jpeg",
+            [
+              "Dog"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown-6.jpeg",
+            [
+              "Rabbit"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/Unknown-8.jpeg",
+            [
+              "Cat"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/Unknown-4.jpeg",
+            [
+              "Cat"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/Unknown-5.jpeg",
+            [
+              "Dog"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/images-7.jpeg",
+            [
+              "Dog"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown-16.jpeg",
+            [
+              "Rabbit"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown-1.jpeg",
+            [
+              "Rabbit"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown-19.jpeg",
+            [
+              "Rabbit"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/Unknown.jpeg",
+            [
+              "Cat"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/Unknown-1.jpeg",
+            [
+              "Cat"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/images-1.jpeg",
+            [
+              "Cat"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/Unknown-7.jpeg",
+            [
+              "Cat"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown-7.jpeg",
+            [
+              "Rabbit"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown-14.jpeg",
+            [
+              "Rabbit"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/images-2.jpeg",
+            [
+              "Cat"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown-2.jpeg",
+            [
+              "Rabbit"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/images-7.jpeg",
+            [
+              "Cat"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/images-5.jpeg",
+            [
+              "Cat"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown-12.jpeg",
+            [
+              "Rabbit"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown-8.jpeg",
+            [
+              "Rabbit"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/Unknown-5.jpeg",
+            [
+              "Cat"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown-9.jpeg",
+            [
+              "Rabbit"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/images-1.jpeg",
+            [
+              "Dog"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/images-11.jpeg",
+            [
+              "Dog"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/Unknown-4.jpeg",
+            [
+              "Dog"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/Unknown-2.jpeg",
+            [
+              "Dog"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown-3.jpeg",
+            [
+              "Rabbit"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/images-2.jpeg",
+            [
+              "Dog"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/images-12.jpeg",
+            [
+              "Dog"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/images-3.jpeg",
+            [
+              "Dog"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/images-8.jpeg",
+            [
+              "Dog"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/images-3.jpeg",
+            [
+              "Cat"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown-15.jpeg",
+            [
+              "Rabbit"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/images.jpeg",
+            [
+              "Cat"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/Unknown-2.jpeg",
+            [
+              "Cat"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Cat/images-8.jpeg",
+            [
+              "Cat"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/images-6.jpeg",
+            [
+              "Dog"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown-4.jpeg",
+            [
+              "Rabbit"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Dog/images-9.jpeg",
+            [
+              "Dog"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown-17.jpeg",
+            [
+              "Rabbit"
+            ],
+            "file:///Users/luizgustavo/Downloads/Training%20Data/Rabbit/Unknown-10.jpeg",
+            [
+              "Rabbit"
+            ]
+          ],
+          "labelStats" : {
+            "Cat" : 20,
+            "Dog" : 20,
+            "Rabbit" : 20
+          }
+        },
+        "issues" : [
+          {
+            "description" : "3 classes found, including Rabbit, Cat, Dog",
+            "severity" : "debug"
+          },
+          {
+            "description" : "60 images found, automatically creating validation set",
+            "severity" : "good"
+          },
+          {
+            "description" : "Smallest class is \"Dog\" with 20 images",
+            "severity" : "debug"
+          },
+          {
+            "description" : "Largest class is \"Rabbit\" with 20 images",
+            "severity" : "debug"
+          }
+        ],
+        "objectDetectorAnalysis" : {
+          "details" : {
+
+          }
+        },
+        "summary" : {
+          "canUseValidation" : 1,
+          "classCount" : 3,
+          "sampleCount" : 60
+        }
+      },
+      "dataSourceID" : "BCEE9AD5-1293-4D53-B354-85676BF92A0B",
+      "dataURL" : "file:///Users/luizgustavo/Downloads/Training%20Data/",
+      "itemsCount" : 60
+    },
+    "dataSourceID" : "BCEE9AD5-1293-4D53-B354-85676BF92A0B",
+    "featureExtractionCheckpointMayBeAvailable" : false,
+    "finishTime" : "2026-01-16T02:16:39Z",
+    "progress" : [
+      {
+        "count" : 0,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 1,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 1
+      },
+      {
+        "count" : 2,
+        "currentRowIndex" : 0,
+        "icTrainingColumnHeader" : {
+          "elapsedTime" : 0.01211094856262207,
+          "hasValidation" : true,
+          "iterationCount" : 2,
+          "trainingAccuracy" : 1,
+          "validationAccuracy" : 1
+        },
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : true,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 5,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 10,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 15,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 20,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 25,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : true,
+        "tableIndex" : 1
+      },
+      {
+        "count" : 30,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 35,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 40,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 45,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 50,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 55,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 60,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : true,
+        "tableIndex" : 0
+      }
+    ],
+    "resumableCheckpoint" : {
+      "checkpointURL" : "file:///Users/luizgustavo/Library/Caches/com.apple.dt.createml/projects/A78C8ABA-54A4-4FB0-9F8F-C718418BC21A786d373f7912035917cc23b231effec79bb3db4d/sessions/checkpoint.sessions/7A7C0911-3586-41CA-B5D7-BD0C204442EB/training-000000025.checkpoint",
+      "createdDate" : "2026-01-16T02:16:39Z",
+      "iteration" : 25
+    },
+    "resumableCheckpointURL" : "Checkpoints/7A7C0911-3586-41CA-B5D7-BD0C204442EB.AnimalClassifier1.checkpoint",
+    "snapshottableCheckpointModelURL" : "Checkpoints/7A7C0911-3586-41CA-B5D7-BD0C204442EB.AnimalClassifier1.checkpoint/training-000000025.checkpoint.model/checkpointModel.mlmodel",
+    "snapshottableCheckpoints" : {
+      "25" : {
+        "createdDate" : "2026-01-16T02:16:39Z",
+        "iteration" : 25,
+        "modelURL" : "file:///Users/luizgustavo/Library/Caches/com.apple.dt.createml/projects/A78C8ABA-54A4-4FB0-9F8F-C718418BC21A786d373f7912035917cc23b231effec79bb3db4d/sessions/checkpoint.sessions/7A7C0911-3586-41CA-B5D7-BD0C204442EB/training-000000025.checkpoint.model/checkpointModel.mlmodel"
+      }
+    },
+    "startTime" : "2026-01-16T02:16:38Z",
+    "trainingAccuracy" : 1,
+    "trainingResults" : {
+      "imageClassifier" : {
+        "accuracy" : 1,
+        "confusionMatrix" : [
+          {
+            "actual" : "Cat",
+            "count" : 18,
+            "expected" : "Cat"
+          },
+          {
+            "actual" : "Dog",
+            "count" : 18,
+            "expected" : "Dog"
+          },
+          {
+            "actual" : "Rabbit",
+            "count" : 18,
+            "expected" : "Rabbit"
+          }
+        ],
+        "statsByLabel" : {
+          "Cat" : {
+            "count" : 18,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 1,
+                "recall" : 1
+              }
+            }
+          },
+          "Dog" : {
+            "count" : 18,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 1,
+                "recall" : 1
+              }
+            }
+          },
+          "Rabbit" : {
+            "count" : 18,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 1,
+                "recall" : 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "validationAccuracy" : 1,
+    "validationResults" : {
+      "imageClassifier" : {
+        "accuracy" : 1,
+        "confusionMatrix" : [
+          {
+            "actual" : "Cat",
+            "count" : 2,
+            "expected" : "Cat"
+          },
+          {
+            "actual" : "Dog",
+            "count" : 2,
+            "expected" : "Dog"
+          },
+          {
+            "actual" : "Rabbit",
+            "count" : 2,
+            "expected" : "Rabbit"
+          }
+        ],
+        "statsByLabel" : {
+          "Cat" : {
+            "count" : 2,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 1,
+                "recall" : 1
+              }
+            }
+          },
+          "Dog" : {
+            "count" : 2,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 1,
+                "recall" : 1
+              }
+            }
+          },
+          "Rabbit" : {
+            "count" : 2,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 1,
+                "recall" : 1
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "validationEntity" : {
+    "analysedDataType" : "auto",
+    "dataResult" : {
+      "createdDate" : "2026-01-16T02:14:52Z"
+    },
+    "splitOptions" : {
+      "strategy" : {
+        "automatic" : {
+
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

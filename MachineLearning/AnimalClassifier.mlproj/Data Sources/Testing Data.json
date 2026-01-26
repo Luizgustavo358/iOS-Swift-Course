@@ -1,0 +1,140 @@
+{
+  "activityEntities" : [
+    "dataSourceCreated",
+    [
+      {
+        "createdDate" : "2026-01-16T02:15:09Z",
+        "event" : "dataSourceCreated",
+        "id" : "E18760E8-0E3D-425E-A73B-3AF2830AF66B",
+        "subtitle" : "Testing Data",
+        "title" : "Data Source Created"
+      }
+    ]
+  ],
+  "createdDate" : "2026-01-16T02:15:09Z",
+  "dataPathRelativeToProjectURL" : "../../../../../../../Downloads/Testing%20Data/",
+  "dataResult" : {
+    "classesCount" : 3,
+    "createdDate" : "2026-01-16T02:15:09Z",
+    "dataAnalysis" : {
+      "classifierAnalysis" : {
+        "details" : [
+          "file:///Users/luizgustavo/Downloads/Testing%20Data/Dog/images-4.jpeg",
+          [
+            "Dog"
+          ],
+          "file:///Users/luizgustavo/Downloads/Testing%20Data/Cat/images-1.jpeg",
+          [
+            "Cat"
+          ],
+          "file:///Users/luizgustavo/Downloads/Testing%20Data/Dog/images.jpeg",
+          [
+            "Dog"
+          ],
+          "file:///Users/luizgustavo/Downloads/Testing%20Data/Dog/images-5.jpeg",
+          [
+            "Dog"
+          ],
+          "file:///Users/luizgustavo/Downloads/Testing%20Data/Cat/images-4.jpeg",
+          [
+            "Cat"
+          ],
+          "file:///Users/luizgustavo/Downloads/Testing%20Data/Rabbit/images-3.jpeg",
+          [
+            "Rabbit"
+          ],
+          "file:///Users/luizgustavo/Downloads/Testing%20Data/Rabbit/images-2.jpeg",
+          [
+            "Rabbit"
+          ],
+          "file:///Users/luizgustavo/Downloads/Testing%20Data/Rabbit/images.jpeg",
+          [
+            "Rabbit"
+          ],
+          "file:///Users/luizgustavo/Downloads/Testing%20Data/Cat/images-2.jpeg",
+          [
+            "Cat"
+          ],
+          "file:///Users/luizgustavo/Downloads/Testing%20Data/Dog/images-2.jpeg",
+          [
+            "Dog"
+          ],
+          "file:///Users/luizgustavo/Downloads/Testing%20Data/Cat/images.jpeg",
+          [
+            "Cat"
+          ],
+          "file:///Users/luizgustavo/Downloads/Testing%20Data/Rabbit/images-4.jpeg",
+          [
+            "Rabbit"
+          ],
+          "file:///Users/luizgustavo/Downloads/Testing%20Data/Dog/images-1.jpeg",
+          [
+            "Dog"
+          ],
+          "file:///Users/luizgustavo/Downloads/Testing%20Data/Dog/images-3.jpeg",
+          [
+            "Dog"
+          ],
+          "file:///Users/luizgustavo/Downloads/Testing%20Data/Rabbit/images-5.jpeg",
+          [
+            "Rabbit"
+          ],
+          "file:///Users/luizgustavo/Downloads/Testing%20Data/Cat/images-3.jpeg",
+          [
+            "Cat"
+          ],
+          "file:///Users/luizgustavo/Downloads/Testing%20Data/Rabbit/images-1.jpeg",
+          [
+            "Rabbit"
+          ]
+        ],
+        "labelStats" : {
+          "Cat" : 5,
+          "Dog" : 6,
+          "Rabbit" : 6
+        }
+      },
+      "issues" : [
+        {
+          "description" : "3 classes found, including Rabbit, Dog, Cat",
+          "severity" : "debug"
+        },
+        {
+          "description" : "Less than 50 total images found - add more to improve model validation",
+          "severity" : "warning"
+        },
+        {
+          "description" : "Smallest class is \"Cat\" with 5 images",
+          "severity" : "debug"
+        },
+        {
+          "description" : "Largest class is \"Rabbit\" with 6 images",
+          "severity" : "debug"
+        }
+      ],
+      "objectDetectorAnalysis" : {
+        "details" : {
+
+        }
+      },
+      "summary" : {
+        "canUseValidation" : 0,
+        "classCount" : 3,
+        "sampleCount" : 17
+      }
+    },
+    "dataSourceID" : "4526E01C-79DE-476C-89D5-8D81FF6A355C",
+    "dataURL" : "file:///Users/luizgustavo/Downloads/Testing%20Data/",
+    "itemsCount" : 17
+  },
+  "dataURL" : "file:///Users/luizgustavo/Downloads/Testing%20Data/",
+  "experimentIDs" : [
+    "7A7C0911-3586-41CA-B5D7-BD0C204442EB"
+  ],
+  "id" : "4526E01C-79DE-476C-89D5-8D81FF6A355C",
+  "modifiedDate" : "2026-01-16T02:15:36Z",
+  "pathType" : 0,
+  "preferredFilename" : "Testing Data",
+  "title" : "Testing Data",
+  "version" : "1.0"
+}

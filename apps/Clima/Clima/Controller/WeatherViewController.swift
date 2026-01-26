@@ -82,7 +82,7 @@ extension WeatherViewController: WeatherManagerDelegate {
     }
     
     func didFailWithError(error: Error) {
-        print(error)
+        print("DEBUG didFailWithError: \(error)")
     }
 }
 
@@ -102,6 +102,6 @@ extension WeatherViewController: CLLocationManagerDelegate {
     }
     
     func locationManager(_ manager: CLLocationManager, didFailWithError error: any Error) {
-        print(error)
+        print("DEBUG locationManager: \(error)")
     }
 }
