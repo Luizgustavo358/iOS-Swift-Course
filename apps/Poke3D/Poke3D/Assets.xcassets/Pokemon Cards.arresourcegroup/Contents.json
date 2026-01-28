@@ -5,10 +5,28 @@
   },
   "resources" : [
     {
+      "filename" : "bulbasaur-card.arreferenceimage"
+    },
+    {
+      "filename" : "charmander-card.arreferenceimage"
+    },
+    {
+      "filename" : "chikorita-card.arreferenceimage"
+    },
+    {
+      "filename" : "cyndaquil-card.arreferenceimage"
+    },
+    {
       "filename" : "eevee-card.arreferenceimage"
     },
     {
       "filename" : "oddish-card.arreferenceimage"
+    },
+    {
+      "filename" : "squirtle-card.arreferenceimage"
+    },
+    {
+      "filename" : "totodile-card.arreferenceimage"
     }
   ]
 }

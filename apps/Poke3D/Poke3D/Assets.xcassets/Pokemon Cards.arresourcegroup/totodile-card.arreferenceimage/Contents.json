@@ -1,0 +1,16 @@
+{
+  "images" : [
+    {
+      "filename" : "totodile-card.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "unit" : "centimeters",
+    "width" : 6499.9857421875004
+  }
+}
