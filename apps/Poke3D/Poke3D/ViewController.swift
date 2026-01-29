@@ -25,14 +25,12 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         super.viewWillAppear(animated)
         
         // Create a session configuration
-        let configuration = ARImageTrackingConfiguration()
+        let configuration = ARWorldTrackingConfiguration()
         
         if let imageToTrack = ARReferenceImage.referenceImages(inGroupNamed: "Pokemon Cards", bundle: Bundle.main) {
-            configuration.trackingImages = imageToTrack
+            configuration.detectionImages = imageToTrack
             
             configuration.maximumNumberOfTrackedImages = 8
-            
-            print("images successfully added")
         }
 
         // Run the view's session
@@ -65,11 +63,15 @@ class ViewController: UIViewController, ARSCNViewDelegate {
             
             node.addChildNode(planeNode)
             
-            if let pokeScene = SCNScene(named: "art.scnassets/Bulbasaur.scn") {
-                if let pokeNode = pokeScene.rootNode.childNodes.first {
-                    pokeNode.eulerAngles.x = .pi / 2
-                    
-                    planeNode.addChildNode(pokeNode)
+            if let imageName = imageAnchor.referenceImage.name {
+                let pokemonName = imageName.split(separator: "-")
+                
+                if let pokeScene = SCNScene(named: "art.scnassets/\(pokemonName[0]).scn") {
+                    if let pokeNode = pokeScene.rootNode.childNodes.first {
+                        pokeNode.eulerAngles.x = .pi / 2
+                        
+                        planeNode.addChildNode(pokeNode)
+                    }
                 }
             }
         }
