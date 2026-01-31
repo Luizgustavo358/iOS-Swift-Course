@@ -1,0 +1,35 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "resources" : [
+    {
+      "filename" : "cdz.arreferenceimage"
+    },
+    {
+      "filename" : "digicharat.arreferenceimage"
+    },
+    {
+      "filename" : "harrypotter.arreferenceimage"
+    },
+    {
+      "filename" : "inuyasha.arreferenceimage"
+    },
+    {
+      "filename" : "sailormoon.arreferenceimage"
+    },
+    {
+      "filename" : "sakura.arreferenceimage"
+    },
+    {
+      "filename" : "samuraix.arreferenceimage"
+    },
+    {
+      "filename" : "yugioh.arreferenceimage"
+    },
+    {
+      "filename" : "yuyuhakusho.arreferenceimage"
+    }
+  ]
+}
